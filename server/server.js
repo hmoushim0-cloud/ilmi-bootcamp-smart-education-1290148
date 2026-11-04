@@ -159,6 +159,6 @@ app.use((err, req, res, next) => {
 
 // 7. Start Server
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Production Server for #$1290148 running on http://0.0.0.0:${PORT}`);
-  console.log(`📡 WebSocket Realtime Gateway active on ws://0.0.0.0:${PORT}`);
+  console.log(` Production Server for #$1290148 running on http://0.0.0.0:${PORT}`);
+  console.log(` WebSocket Realtime Gateway active on ws://0.0.0.0:${PORT}`);
 });
